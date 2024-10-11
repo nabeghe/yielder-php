@@ -1,0 +1,37 @@
+{
+  "name": "nabeghe/yielder",
+  "description": "A similar alternative to yield in PHP for reading values from arrays, with a touch of zest.",
+  "keywords": [
+    "yielder",
+    "yield",
+    "array",
+    "lazy load",
+    "library"
+  ],
+  "type": "library",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nabeghe/yielder-php",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nabeghe\\Yielder\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hadi Akbarzadeh",
+      "email": "hadicoder@gmail.com",
+      "homepage": "https://elatel.ir",
+      "role": "Developer"
+    }
+  ],
+  "scripts": {
+    "test": "vendor/bin/phpunit tests"
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.6"
+  }
+}
